@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using OkamelUtils;
 using UnityEditor;
 using UnityEngine;
@@ -36,3 +37,4 @@ namespace OkamelUtils.Wrappers.OptionalProperties {
         }
     }
 }
+#endif
